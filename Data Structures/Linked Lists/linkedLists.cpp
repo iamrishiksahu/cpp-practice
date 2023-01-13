@@ -105,7 +105,13 @@ bool search(node *head, int key)
 }
 
 void deleteHead(node* &head){
-
+    
+    
+    if(head == NULL){
+        //linked list is empty;
+        return;
+    }
+    
     node* temp = head;
     head = head->next;
     delete temp;

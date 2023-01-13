@@ -4,7 +4,7 @@ using namespace std;
 
 //General Syntax to define a class
 
-class A {
+class node {
     //add data members and function members here
 };
 
@@ -30,18 +30,18 @@ class B{
         }
 
     protected:
-        //every member which we write under this public
+        //every member which we write under this protected
         //is all protected (functions also)
         int l; int g;
         //here l and g are protected.
 
 };
 
-//here B and A are inherited in C. 
-//Constructor of B will be called first then A
-// only public and protected data members of A &B
+//here B and node are inherited in C. 
+//Constructor of B will be called first then of node
+// only public and protected data members of A & node
 // will be inherited to C as public functions. Other member /// types will not be inherited
-class C: public B, public A{
+class C: public B, public node{
 
     int a , b;
 

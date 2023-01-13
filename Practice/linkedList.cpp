@@ -4,22 +4,22 @@ using namespace std;
 
 //Implementing linked lists
 
-class A{
+class node{
 
     public:
 
     int data; // datatype can be anything according to requirement
-    A* next;
+    node* next;
 
-    A(int a){
+    node(int a){
         data = a;
         next = NULL;
     }
 };
 
-void printLinkedList(A* &head){
+void printLinkedList(node* &head){
 
-    A* temp = head;
+    node* temp = head;
 
     while(temp !=NULL){
         cout<<temp->data<<" ";
@@ -27,11 +27,11 @@ void printLinkedList(A* &head){
     }
 }
 
-void insertAtHead(A* &head, int val){
+void insertAtHead(node* &head, int val){
 
     // A* temp = head;
 
-    A* newEl = new A(val);
+    node* newEl = new node(val);
 
     newEl->next = head;
 
@@ -39,15 +39,15 @@ void insertAtHead(A* &head, int val){
 
 }
 
-void insertAtTail(A* &head, int val){
+void insertAtTail(node* &head, int val){
 
     //we are using head by reference because if the intialized head in the
     //driving function is NULL then there will be no pointer stored in the head.
     //In that case, we will require the pointer of that NULL head. 
 
-    A* temp = head;
+    node* temp = head;
 
-    A* newEl = new A(val);
+    node* newEl = new node(val);
 
     if(head == NULL){
         head = newEl;
@@ -64,22 +64,22 @@ void insertAtTail(A* &head, int val){
     temp->next= newEl;
 }
 
-void insertAtNode(A* node, int val){
-    A* temp = node;
+void insertAtNode(node* node, int val){
+    node* temp = node;
 
-    A* newEl = new A(val);
+    node* newEl = new node(val);
 
     newEl->next = node->next;
     node->next = newEl;
 
 }
 
-A* search(A* head, int key){
+node* search(node* head, int key){
     if(head == NULL){
         cout<<"Head cannot be null";
     }
 
-    A* temp = head;
+    node* temp = head;
 
     while(temp != NULL){
         if(temp-> data == key){
@@ -94,7 +94,7 @@ A* search(A* head, int key){
 
 int main(){
 
-    A* head =NULL;
+    node* head =NULL;
     // A* head = new A(5);
     // A* secondElementPointer = new A(200);
     // A* pointerToLastElement = new A(500);
@@ -123,7 +123,7 @@ int main(){
 
     printLinkedList(head);
 
-    A* searchPointer = search(head, 6);
+    node* searchPointer = search(head, 6);
 
     cout<<endl<<endl;
     if(searchPointer != NULL){

@@ -1,0 +1,114 @@
+The mean of Quick sort is 20350
+The mean of shell sort is 5016
+quicksort variance is 1171845
+shell sort variance is 83132
+The standard deviation of quick sort is 1082.52
+The standard deviation of shell sort is 288.326
+The mean of Quick sort is 17062
+The mean of shell sort is 5884
+quicksort variance is 1327034
+shell sort variance is 134751
+The standard deviation of quick sort is 1151.97
+The standard deviation of shell sort is 367.084
+The mean of Quick sort is 16401
+The mean of shell sort is 6232
+quicksort variance is 1243890
+shell sort variance is 134753
+The standard deviation of quick sort is 1115.3
+The standard deviation of shell sort is 367.087
+The mean of Quick sort is 16142
+The mean of shell sort is 6578
+quicksort variance is 905992
+shell sort variance is 169481
+The standard deviation of quick sort is 951.836
+The standard deviation of shell sort is 411.681
+The mean of Quick sort is 16122
+The mean of shell sort is 6742
+quicksort variance is 1406713
+shell sort variance is 121092
+The standard deviation of quick sort is 1186.05
+The standard deviation of shell sort is 347.983
+The mean of Quick sort is 15868
+The mean of shell sort is 6879
+quicksort variance is 934499
+shell sort variance is 129072
+The standard deviation of quick sort is 966.695
+The standard deviation of shell sort is 359.266
+The mean of Quick sort is 16145
+The mean of shell sort is 6904
+quicksort variance is 1445407
+shell sort variance is 127416
+The standard deviation of quick sort is 1202.25
+The standard deviation of shell sort is 356.954
+The mean of Quick sort is 16189
+The mean of shell sort is 7047
+quicksort variance is 1589860
+shell sort variance is 141029
+The standard deviation of quick sort is 1260.9
+The standard deviation of shell sort is 375.538
+The mean of Quick sort is 16037
+The mean of shell sort is 7053
+quicksort variance is 1182633
+shell sort variance is 140367
+The standard deviation of quick sort is 1087.49
+The standard deviation of shell sort is 374.656
+The mean of Quick sort is 16252
+The mean of shell sort is 7079
+quicksort variance is 1672266
+shell sort variance is 127279
+The standard deviation of quick sort is 1293.16
+The standard deviation of shell sort is 356.762
+The mean of Quick sort is 16181
+The mean of shell sort is 7136
+quicksort variance is 1032714
+shell sort variance is 241652
+The standard deviation of quick sort is 1016.23
+The standard deviation of shell sort is 491.581
+The mean of Quick sort is 16108
+The mean of shell sort is 7226
+quicksort variance is 1165621
+shell sort variance is 147778
+The standard deviation of quick sort is 1079.64
+The standard deviation of shell sort is 384.419
+The mean of Quick sort is 16298
+The mean of shell sort is 7212
+quicksort variance is 1085619
+shell sort variance is 123130
+The standard deviation of quick sort is 1041.93
+The standard deviation of shell sort is 350.899
+The mean of Quick sort is 16329
+The mean of shell sort is 7237
+quicksort variance is 1177419
+shell sort variance is 139206
+The standard deviation of quick sort is 1085.09
+The standard deviation of shell sort is 373.103
+The mean of Quick sort is 16200
+The mean of shell sort is 7272
+quicksort variance is 1062317
+shell sort variance is 154871
+The standard deviation of quick sort is 1030.69
+The standard deviation of shell sort is 393.537
+The mean of Quick sort is 16066
+The mean of shell sort is 7306
+quicksort variance is 857434
+shell sort variance is 127789
+The standard deviation of quick sort is 925.977
+The standard deviation of shell sort is 357.476
+The mean of Quick sort is 16289
+The mean of shell sort is 7292
+quicksort variance is 1042259
+shell sort variance is 152495
+The standard deviation of quick sort is 1020.91
+The standard deviation of shell sort is 390.506
+The mean of Quick sort is 16270
+The mean of shell sort is 7398
+quicksort variance is 1283047
+shell sort variance is 161805
+The standard deviation of quick sort is 1132.72
+The standard deviation of shell sort is 402.25
+The mean of Quick sort is 16365
+The mean of shell sort is 7385
+quicksort variance is 1151804
+shell sort variance is 128920
+The standard deviation of quick sort is 1073.22
+The standard deviation of shell sort is 359.054

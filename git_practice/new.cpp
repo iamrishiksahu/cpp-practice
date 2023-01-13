@@ -5,6 +5,7 @@ using namespace std;
 void abc(int);
 
 int main(){
+    abc(1);
 
     return 0;
 }

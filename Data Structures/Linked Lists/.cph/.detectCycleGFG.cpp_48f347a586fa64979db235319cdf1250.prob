@@ -1,0 +1,1 @@
+{"name":"Local: detectCycleGFG","url":"e:\\Study\\Programming\\C++ Practice\\Data Structures\\Linked Lists\\detectCycleGFG.cpp","tests":[{"id":1660892517210,"input":"3\n1 3 4\n2","output":"True"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Study\\Programming\\C++ Practice\\Data Structures\\Linked Lists\\detectCycleGFG.cpp","group":"local","local":true}

@@ -1,0 +1,68 @@
+<script>
+
+    maxCost = 30;
+    city = 'houston';
+    
+// let xhr = new XMLHttpRequest();
+// xhr.open("GET", `https://jsonmock.hackerrank.com/api/food_outlets?city=${city}`);
+
+// xhr.send();
+
+// xhr.onload = () => {
+//     let preres = xhr.responseText;
+//     let res = JSON.parse(preres);
+
+//     let total_pages = res.total_pages;
+
+//     let curr = total_pages;
+
+//     let finalArray =[];
+//     while(curr > 0){
+//         let cr = new XMLHttpRequest();;
+//         cr.open("GET", `https://jsonmock.hackerrank.com/api/food_outlets?city=${city}&page=${curr}`);
+
+//         cr.send();
+
+//         cr.onload = () =>{
+//             let p = cr.responseText;
+//             let nres = JSON.parse(p);
+
+//             let allData = nres.data;
+//             let itr = allData.length -1;
+//             while(itr >= 0){
+                
+
+//                 if(allData[itr].estimated_cost <= maxCost ){
+//                     finalArray.push(allData[itr].name);
+//                 }
+
+//                 itr--;
+//             }
+//         }
+
+//         curr--;
+//     }
+
+//     console.log(finalArray);
+
+
+// };
+
+
+const result = [];
+    const response = await axios.get(`https://jsonmock.hackerrank.com/api/food_outlets?city=${city}`)
+    const total_pages = response.data.total_pages;
+    // console.log(total_pages);
+    for(let pageNo = 0; pageNo < total_pages; pageNo++){
+        const res = await axios.get(`https://jsonmock.hackerrank.com/api/food_outlets?city=${city}&page=${pageNo}`);
+        const food_outlets = res.data.data;
+        for(let outlet=0;outlet<food_outlets.length ;outlet++){
+            if(food_outlets[outlet].estimated_cost <= maxCost){
+                result.push(food_outlets[outlet].name);
+            }
+        }
+    }
+    console.log(result);
+
+
+</script>

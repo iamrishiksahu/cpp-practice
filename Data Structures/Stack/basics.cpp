@@ -4,11 +4,11 @@ using namespace std;
 
 #define n 100
 
-class stack
+template <typename T> class stack
 {
 
-    int *arr;
-    int top;
+    T *arr;
+    T top;
 
     public:
         stack()
@@ -17,7 +17,7 @@ class stack
             top = -1;
         }
 
-        void push(int val){
+        void push(T val){
             if(top < n){
                 arr[++top] = val;
             }else{
@@ -38,7 +38,7 @@ class stack
             return top == -1;
         }
 
-        int Top(){
+        T Top(){
             if(top < 0){
                 cout<<"There is no element in the stack!\n";
                 return -1;
@@ -51,7 +51,7 @@ class stack
 int main()
 {
 
-    stack st;
+    stack<int> st;
 
     st.push(1);
     st.push(2);

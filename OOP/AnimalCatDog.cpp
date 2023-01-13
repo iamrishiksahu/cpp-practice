@@ -67,5 +67,4 @@ int main()
     cout << "Cat's age is: " << a->get_Age() << endl;
     return 0;
 
-    return 0;
 }

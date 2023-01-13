@@ -35,7 +35,7 @@ class Complex{
         }
 };
 
-class A{
+class node{
 
     public:
 
@@ -50,7 +50,7 @@ class A{
 
 int main(){
 
-    A a;
+    node a;
 
     a.welcome();
     a.welcome(3);
